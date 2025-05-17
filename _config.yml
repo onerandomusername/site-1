@@ -12,6 +12,9 @@ baseurl: ''
 url: 'https://allhandsactive.org'
 repository: 'allhandsactive/site'
 
+source: website
+destination: website/_site
+
 # Social media variables
 twitter_username: AllHandsActive
 facebook_username: AHA-All-Hands-Active-300100514925
@@ -70,3 +73,14 @@ safe: true
 
 # add key-value pair to pull GitHub Metadata
 github: [metadata]
+
+# keep the favicon files in the built folder
+keep_files: 
+- android-chrome-192x192.png
+- android-chrome-256x256.png
+- apple-touch-icon.png
+- favicon-16x16.png
+- favicon-32x32.png
+- favicon.ico
+- mstile-150x150.png
+- safari-pinned-tab.svg
